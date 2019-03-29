@@ -23,7 +23,7 @@ install:
   - npm install
 
 test_script:
-  - npm test
+  - npm test -- --maxWorkers 1
 
 notifications:
   - provider: Slack
